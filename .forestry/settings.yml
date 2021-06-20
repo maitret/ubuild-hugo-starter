@@ -4,13 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Holi
 - type: directory
   path: ''
   label: eqwewq
   create: all
   match: "**/*"
-- type: heading
-  label: Holi
+  templates:
+  - hero-banner-w-image
 - type: document
   path: README-FORESTRY.md
   label: Help
